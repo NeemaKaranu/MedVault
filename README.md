@@ -50,9 +50,30 @@ Open: http://localhost:4200/ on Client Side
 ## Clearing the Server and Client
 
 This is in the case of a fresh redo of the steps of the project.
+CLient:
+```
+npm i --force
+truffle migrate
+npm start
+```
 
 Server directory:
+```
+python -m pip install virtualenv
+python -m virtualenv venv
+       Windows: venv/scripts/activate
+      macOs / Linux : source venv/bin/activate
+python -m pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+```
 ## IPFS Configuration
+Configure the below after running the IPFS file
+```
+ipfs init
+ipfs daemon
+``` 
+This is in the IOFS Settings
 ```
 "Access-Control-Allow-Headers": [
 "X-Requested-With",
@@ -74,11 +95,30 @@ Server directory:
 "Access-Control-Expose-Headers: Ipfs-Hash"
 ]
 ```
+## Repeat Build
+For starting project 2nd time:
+Run Ganache
+Ensure Metamask is Using the right network
+Client:
+```
+ npm start
+ ```
 
+Server:
+```
+ venv/Scripts/activate
+python manage.py runserver
+```
+
+IPFS: 
+
+```
+ipfs daemo
+```
 ## Contributing 
 
-We appreciate and encourage contributions! Please refer to our [Contributing Guide](CONTRIBUTING.md) for more information.
+We appreciate and encourage contributions! Please send an email for more inquiry to sharon.kangethe@strathmore.edu or neema.karanu@strathmore.edu.
 
 ## License
 
-MedVault is licensed under the terms of the MIT license. For complete details,
+MedVault is licensed under no license for the time being. 
