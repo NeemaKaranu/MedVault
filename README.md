@@ -53,6 +53,7 @@ This is in the case of a fresh redo of the steps of the project.
 
 Server directory:
 ## IPFS Configuration
+```
 "Access-Control-Allow-Headers": [
 "X-Requested-With",
 "Access-Control-Expose-Headers",
@@ -72,7 +73,7 @@ Server directory:
 "X-Special-Header": [
 "Access-Control-Expose-Headers: Ipfs-Hash"
 ]
-
+```
 
 ## Contributing 
 
