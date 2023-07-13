@@ -1,12 +1,12 @@
 Project Summary:
 To address the concerns highlighted in this chapter we aim to implement the system with the use of Etheruem and Soidity as well as Ganache. 
-Hyperledger Fabric, as a permissioned blockchain framework, ensures privacy, data control, and fine-grained access control required in healthcare settings. 
+Ethereum, as a permissioned blockchain framework, ensures privacy, data control, and fine-grained access control required in healthcare settings. 
 Since all the transactions are combined in a block and arranged in a chain as explained in the first diagram above. 
-On top of the blockchain, Hyperledger fabric provides some additional features which perfectly fit the current scenario. 
-By being permissioned and closed blockchain, no person can get added into the network unlike permissionless blockchains such as Bitcoin, Ethereum. 
+On top of the blockchain, Ethereum provides some additional features which perfectly fit the current scenario. 
+By being permissioned and closed blockchain, no person can get added into the network unlike permissionless blockchains such as Bitcoin.
 This solves the confidentiality problem of patients’ data. 
  
-2.4: Block Diagram 
+
  
  
 The fabric has a concept of Certificate Authority for every organization or common CA called Fabric CA and MSP which provides identities and verifies when a transaction request is made. 
