@@ -1,4 +1,4 @@
-# MedVault: Blockchain EHR Project
+# medvault: Blockchain Electronic Health Records Project
 
 ## Project Description
 
